@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.contenedor {
+    margin-top: 40px;
+}
+
+button {
+    margin: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+#salida {
+    font-weight: bold;
+    margin: 10px;
+    color: blue;
+}
+
+li {
+    margin: 5px;
+}
+.oscuro {
+    background-color: #222;
+    color: white;
+}

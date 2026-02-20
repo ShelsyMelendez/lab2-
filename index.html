@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel Interactivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="contenedor">
+
+        <h2>Panel Interactivo</h2>
+
+        <p class="descripcion">Escribe tu nombre y agrega tareas.</p>
+
+        <input type="text" id="nombre" placeholder="Escribe tu nombre">
+        <button id="btnSaludar">Saludar</button>
+
+        <div id="salida"></div>
+
+        <hr>
+
+        <h3>Lista de tareas</h3>
+
+        <input type="text" id="nuevaTarea" placeholder="Nueva tarea">
+        <button id="btnAgregar">Agregar tarea</button>
+
+        <ul id="lista"></ul>
+
+        <hr>
+
+        <h3>Contador</h3>
+        <p id="contador">0</p>
+        <button id="btnSumar">Sumar</button>
+        <button id="btnRestar">Restar</button>
+
+        <hr>
+
+        <button id="btnModo">Modo Oscuro</button>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
